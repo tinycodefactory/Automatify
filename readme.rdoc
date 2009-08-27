@@ -7,13 +7,19 @@ A collection of global capistrano recipes to automate common tasks
 cd into you user home dir
 
 clone the project as .capistrano
+
 <tt>git clone git://github.com/tinycodefactory/Automatify.git .capistrano</tt>
 
 and copy the caprc file from the .capistano folder to your user folder
+
 <tt>mv .capistrano/caprc .caprc</tt>
 
-=== test
+=== Test
 
 <tt>cap -T</tt> and you should see some extra global tasks
 
+== Next Steps
+
+* Add automatify update task
+* Automatically create environment setting tasks
 
