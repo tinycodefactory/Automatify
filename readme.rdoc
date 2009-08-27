@@ -1,0 +1,6 @@
+= Automatify
+
+A collection of global capistrano recipes to automate common tasks
+
+== Installation
+
