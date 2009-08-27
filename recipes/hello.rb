@@ -1,6 +1,10 @@
+#-------------------
+#  ENVIRONMENTS
+#-------------------
 task :local do
   set :environment, "local"
 end
+
 
 namespace :foo do
   desc <<-DESC
