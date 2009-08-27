@@ -1,6 +1,0 @@
-# ~/.caprc
-
-#load up all the recipes in the .capistrano folder
-Dir["#{ENV['HOME']}/.capistrano/recipes/*.rb"].each do |tasks|
-  load tasks
-end
