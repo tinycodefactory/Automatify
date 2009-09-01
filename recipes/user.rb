@@ -11,7 +11,8 @@ namespace :user do
   
   desc "adds an 'admin' user to use intead of logging in as root"
   task :add do
-    
-    sudo "add user sysadmin"
+    run "ssh root@#{server_ip}"
+    run "exit"
+    #sudo "add user sysadmin"
   end   
 end

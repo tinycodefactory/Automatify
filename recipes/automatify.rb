@@ -5,7 +5,7 @@ task :local do
   CONFIG = YAML.load_file("#{File.dirname(__FILE__)}/../servers.yml")["local"]
   
   set :environment, "local"
-  puts  CONFIG.inspect
+  set :server_ip, CONFIG["ip"]
 end
 
 
