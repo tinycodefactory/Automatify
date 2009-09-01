@@ -2,7 +2,10 @@
 #  ENVIRONMENTS
 #-------------------
 task :local do
+  CONFIG = YAML.load_file("#{RAILS_ROOT}/config/config.yml")["local"]
+  
   set :environment, "local"
+  puts  CONFIG.inspect
 end
 
 
